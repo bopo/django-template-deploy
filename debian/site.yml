@@ -1,0 +1,12 @@
+---
+- name: Install Base package.
+  hosts: vagrant
+  become_user: root
+  become: yes
+
+  roles:
+    # - common
+    # - mysql
+    # - nginx
+    - pyenv
+
